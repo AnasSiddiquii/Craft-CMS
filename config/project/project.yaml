@@ -1,0 +1,52 @@
+dateModified: 1697989143
+email:
+  fromEmail: anas.siddiqui@afucent.com
+  fromName: Motoventure
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    2bb124d9-d5d5-42d1-b5bb-c8aac04a66a9: Motoventure # Motoventure
+    5b337efe-f5ee-424d-8d96-1d5b893fde1b: 'Hero Title' # Hero Title
+    7d238baa-33e5-4a19-9606-ce60b1f5de36: Rider # Rider
+    9e6f57e7-0be9-4ae4-94ad-af52e92212e9: 'Shot Desription' # Shot Desription
+    84d708c0-8885-40f2-8df4-64a6635edbcd: Home # Home
+    84f320a9-0677-4583-9fce-7406d069605a: Photos # Photos
+    87ec4541-839d-4b88-a01e-7fe6676f7a52: Photo # Photo
+    398e9229-c7ac-4b62-85e9-d191d04993ac: Common # Common
+    573e53fa-b9b9-4849-9942-37f039027ad5: Uploads # Uploads
+    747bab6b-b8b3-4693-b086-2e640e5f887f: Homepage # Homepage
+    9332deef-139f-4736-9a22-1aaa41f24e05: Riders # Riders
+    04382507-15fc-4e59-b1fd-8ec6fbe3ee3e: 'Riders Intro Content' # Riders Intro Content
+    a13d6653-1053-4a81-9738-8a1e9d865d4a: Motoventure # Motoventure
+    aff50799-b15f-4df3-a65a-be8b2ceda6ad: Stories # Stories
+    b35f2925-b965-4a9d-a218-ab33ad0f0d1a: 'Hero Image' # Hero Image
+    c7702cce-c3d4-401d-9436-6566e39a3189: 'Full Name' # Full Name
+    cc7c04b1-d98e-4071-b29e-84b49a5b6e1b: Description # Description
+    d5f00bce-7a77-491e-873b-d7c18d0d72f6: Home # Home
+    d6b6d3b2-9b8a-442f-96f1-f8d928803e2d: 'Rich Text' # Rich Text
+    f732b189-4838-4a3b-aa58-223f968363fc: Stories # Stories
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Motoventure
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

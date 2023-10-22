@@ -1,0 +1,140 @@
+field: 9332deef-139f-4736-9a22-1aaa41f24e05 # Riders
+fieldLayouts:
+  669b5181-e235-4031-9cf5-ec2be6b5dbab:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 87ec4541-839d-4b88-a01e-7fe6676f7a52 # Photo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bc898d60-c107-4d72-ad8c-0c4d88959e23
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c7702cce-c3d4-401d-9436-6566e39a3189 # Full Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85834f0b-02f5-4dcd-817a-d8ef307083d8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cc7c04b1-d98e-4071-b29e-84b49a5b6e1b # Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c120cb02-fa46-40fe-be5e-b34965227596
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bd6094b3-ba17-45cd-9c5a-6ac4910c9895
+        userCondition: null
+fields:
+  87ec4541-839d-4b88-a01e-7fe6676f7a52: # Photo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: photo
+    instructions: null
+    name: Photo
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:573e53fa-b9b9-4849-9942-37f039027ad5' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:573e53fa-b9b9-4849-9942-37f039027ad5' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add a photo'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:573e53fa-b9b9-4849-9942-37f039027ad5' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c7702cce-c3d4-401d-9436-6566e39a3189: # Full Name
+    columnSuffix: susvdalk
+    contentColumnType: text
+    fieldGroup: null
+    handle: fullName
+    instructions: null
+    name: 'Full Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cc7c04b1-d98e-4071-b29e-84b49a5b6e1b: # Description
+    columnSuffix: fbuffrki
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: null
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 2
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: rider
+name: Rider
+sortOrder: 1

@@ -1,0 +1,82 @@
+fieldLayouts:
+  bd900581-29de-4243-b703-e61fd4edc96b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 02a6ac04-2a1f-4ac4-8b7e-7fe4ff62a860
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 84f320a9-0677-4583-9fce-7406d069605a # Photos
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eb5a9530-413c-4729-b77b-516150026c94
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d6b6d3b2-9b8a-442f-96f1-f8d928803e2d # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9d7c905-59e2-4cdb-8f84-25e9ea5d5d7f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9e6f57e7-0be9-4ae4-94ad-af52e92212e9 # Shot Desription
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67ba9c54-5121-42d3-93bd-b50f5f2d80e4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 260062b5-8421-4bc7-993d-facee95e316e
+        userCondition: null
+handle: stories
+hasTitleField: true
+name: Stories
+section: aff50799-b15f-4df3-a65a-be8b2ceda6ad # Stories
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

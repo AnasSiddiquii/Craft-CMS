@@ -1,0 +1,100 @@
+fieldLayouts:
+  cf630e5d-3379-447b-9cfc-f7146566c9f8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b0a6524c-4f1f-4812-b5f0-043b47e7bef4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b337efe-f5ee-424d-8d96-1d5b893fde1b # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dbe682d0-9cb2-4b81-8921-7a024f0759f5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b35f2925-b965-4a9d-a218-ab33ad0f0d1a # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 475d709e-c402-47d5-b9e7-0a90eec668e0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: 51399dc6-ff8d-47f0-b88f-c79beeeb82f9
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 04382507-15fc-4e59-b1fd-8ec6fbe3ee3e # Riders Intro Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32c64eea-b675-4c09-81f7-d9efcf84ad5e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9332deef-139f-4736-9a22-1aaa41f24e05 # Riders
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be8f98be-2fdd-45ef-a5a6-694a69d03d56
+            userCondition: null
+            warning: null
+            width: 100
+        name: Riders
+        uid: c57fdf96-28a0-4936-8d62-ec42dec6f564
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+section: d5f00bce-7a77-491e-873b-d7c18d0d72f6 # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

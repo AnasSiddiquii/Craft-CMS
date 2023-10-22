@@ -1,0 +1,19 @@
+columnSuffix: mfiwkrjr
+contentColumnType: text
+fieldGroup: 398e9229-c7ac-4b62-85e9-d191d04993ac # Common
+handle: shotDesription
+instructions: null
+name: 'Shot Desription'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

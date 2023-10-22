@@ -1,0 +1,19 @@
+columnSuffix: wovoakyn
+contentColumnType: text
+fieldGroup: 747bab6b-b8b3-4693-b086-2e640e5f887f # Homepage
+handle: heroTitle
+instructions: null
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
